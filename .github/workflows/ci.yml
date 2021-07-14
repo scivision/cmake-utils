@@ -52,8 +52,7 @@ jobs:
     runs-on: macos-latest
     env:
       FC: gfortran-11
-      CC: gcc-11
-      CXX: g++-11
+
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-python@v2
